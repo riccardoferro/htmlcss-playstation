@@ -41,6 +41,13 @@
   height: 75px;
 }
 
+.rounded-1rem-rf {
+  border-radius: 1rem;
+}
+
+.h-125px-rf {
+  height: 125px;
+}
 .bg-black-rf {
   background-color: black;
 }
