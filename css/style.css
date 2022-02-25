@@ -9,8 +9,12 @@
 
 /********* TOOLS   **********/
 
-.h-20px-rf {
-  height: 20px;
+.h-15px-rf {
+  height: 15px;
+}
+
+.h-50px-rf {
+  height: 50px;
 }
 
 .bg-black-rf {

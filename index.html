@@ -19,6 +19,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- font bootstrap  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <!-- link file css  -->
     <link rel="stylesheet" href="css/style.css" />
     <title>Playstation</title>
   </head>
@@ -26,17 +32,69 @@
     <!-- first section where is the logo sony and the nav-bar  -->
 
     <header>
+      <!-- top header  -->
+
       <div class="container-fluid">
         <div class="row">
           <!-- top header  -->
 
           <div class="col-12 bg-black-rf text-end p-2">
-            <img class="h-20px-rf" src="img/sony_logo.svg" alt=" Sony's logo" />
+            <img class="h-15px-rf" src="img/sony_logo.svg" alt=" Sony's logo" />
           </div>
-
-          <!-- nav bar  -->
         </div>
       </div>
+
+      <!-- nav bar  -->
+
+      <nav class="navbar navbar-expand-xxl navbar-light bg-light">
+        <div class="container-fluid">
+          <!-- logo ps -->
+
+          <a class="navbar-brand" href="#">
+            <img class="h-50px-rf" src="img/play_logo.svg" alt="play logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarNavAltMarkup"
+          >
+            <!-- start part of the header xxl  -->
+
+            <div class="navbar-nav">
+              <div class="row">
+                <div class="col-12">
+                  <a class="nav-link d-inline-block" href="#">Giochi</a>
+                  <a class="nav-link d-inline-block" href="#">Hardware</a>
+                  <a class="nav-link d-inline-block" href="#">Servizi</a>
+                  <a class="nav-link d-inline-block" href="#">Novita'</a>
+                  <a class="nav-link d-inline-block" href="#">Fai acquisti</a>
+                  <a class="nav-link d-inline-block" href="#">Supporto</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- end part of the header xxl  -->
+
+            <div class="navbar-nav">
+              <div class="col-12">
+                <a class="nav-link d-inline-block" href="#">My PlayStation</a>
+                <button type="button" class="btn btn-dark">Accedi</button>
+                <i class="bi bi-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- section where is an advert of a game  -->
