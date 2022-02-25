@@ -33,21 +33,26 @@
   height: 50px;
 }
 
-.logo {
-  height: 50px;
-}
-
 .h-75px-rf {
   height: 75px;
-}
-
-.rounded-1rem-rf {
-  border-radius: 1rem;
 }
 
 .h-125px-rf {
   height: 125px;
 }
+
+.h-90px-rf {
+  height: 90px;
+}
+
+/* .logo {
+  height: 50px;
+} */
+
+.rounded-1rem-rf {
+  border-radius: 1rem;
+}
+
 .bg-black-rf {
   background-color: black;
 }
@@ -127,7 +132,7 @@
 
 /****** MEDIA QUERIES  *******/
 
-@media screen and (min-width: 767px) {
+/* @media screen and (min-width: 767px) {
   .logo {
     height: 75px;
   }
@@ -137,5 +142,5 @@
   .logo {
     height: 35px;
   }
-}
+} */
 /****** / MEDIA QUERIES  *******/
