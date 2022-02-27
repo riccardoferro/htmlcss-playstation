@@ -19,6 +19,17 @@
 
 /******* / SECTION GAME-ADVERT-1  ******/
 
+/******* SECTION GAME-ADVERT-2  ******/
+
+.game-advert-2 {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/******* / SECTION GAME-ADVERT-2  ******/
+
 /********* TOOLS   **********/
 
 .f-size-40px-rf {
@@ -29,8 +40,8 @@
   height: 15px;
 }
 
-.opacity-50-rf {
-  opacity: 50%;
+.opacity-75-rf {
+  opacity: 75%;
 }
 
 .h-50px-rf {
@@ -63,6 +74,10 @@
 
 .bg-orange-rf {
   background-color: #cd3d0f;
+}
+
+.bg-grey-rf {
+  background-color: hsl(0deg 0% 12%);
 }
 /********* / TOOLS   **********/
 
