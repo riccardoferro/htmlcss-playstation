@@ -87,6 +87,10 @@
 .bg-light-white-rf {
   background-color: hsl(220deg 4% 86%);
 }
+
+.bg-dark-blue-rf {
+  background-color: hsl(230deg 46% 16%);
+}
 /********* / TOOLS   **********/
 
 /******** DEBUG  **********/
