@@ -79,6 +79,14 @@
 .bg-grey-rf {
   background-color: hsl(0deg 0% 12%);
 }
+
+.bg-light-grey-rf {
+  background-color: hsl(20deg 2% 74%);
+}
+
+.bg-light-white-rf {
+  background-color: hsl(220deg 4% 86%);
+}
 /********* / TOOLS   **********/
 
 /******** DEBUG  **********/
